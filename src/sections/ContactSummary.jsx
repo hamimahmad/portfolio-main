@@ -47,9 +47,12 @@ const ContactSummary = () => {
           web application <span className="text-gold">together</span> “
         </p>
       </div>
+
+      {/* <Marquee items={items} /> */}
+
       <Marquee
-        items={items2}
-        reverse={true}
+        items={items}
+        // reverse={true}
         className="text-black bg-transparent border-y-2"
         iconClassName="stroke-gold stroke-2 text-primary"
         icon="material-symbols-light:square"
